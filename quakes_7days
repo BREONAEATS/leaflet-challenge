@@ -1,0 +1,141 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1713132384000,
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
+        "title": "USGS Significant Earthquakes, Past Week",
+        "status": 200,
+        "api": "1.10.3",
+        "count": 3
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.5,
+                "place": "110 km ESE of Kimbe, Papua New Guinea",
+                "time": 1713128188318,
+                "updated": 1713130942155,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mc2t",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mc2t.geojson",
+                "felt": 4,
+                "cdi": 4.3,
+                "mmi": 6.426,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 652,
+                "net": "us",
+                "code": "7000mc2t",
+                "ids": ",at00sbya67,pt24105000,us7000mc2t,",
+                "sources": ",at,pt,us,",
+                "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 117,
+                "dmin": 5.284,
+                "rms": 0.86,
+                "gap": 16,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.5 - 110 km ESE of Kimbe, Papua New Guinea"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.0968,
+                    -5.8184,
+                    49
+                ]
+            },
+            "id": "us7000mc2t"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 5.4,
+                "place": "40 km NW of Kuqa, China",
+                "time": 1712760977086,
+                "updated": 1712848218259,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mb76",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000mb76.geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": 6.965,
+                "alert": "yellow",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 650,
+                "net": "us",
+                "code": "7000mb76",
+                "ids": ",us7000mb76,",
+                "sources": ",us,",
+                "types": ",ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 169,
+                "dmin": 2.674,
+                "rms": 0.69,
+                "gap": 19,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 5.4 - 40 km NW of Kuqa, China"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.6416,
+                    42.0113,
+                    6.451
+                ]
+            },
+            "id": "us7000mb76"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.6,
+                "place": "149 km NW of Tobelo, Indonesia",
+                "time": 1712656081680,
+                "updated": 1712742881562,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000maxr",
+                "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000maxr.geojson",
+                "felt": 2,
+                "cdi": 2,
+                "mmi": 4.375,
+                "alert": "green",
+                "status": "reviewed",
+                "tsunami": 1,
+                "sig": 671,
+                "net": "us",
+                "code": "7000maxr",
+                "ids": ",at00sbo5w4,us7000maxr,pt24100001,",
+                "sources": ",at,us,pt,",
+                "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 139,
+                "dmin": 1.948,
+                "rms": 0.71,
+                "gap": 23,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.6 - 149 km NW of Tobelo, Indonesia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.0944,
+                    2.7135,
+                    35
+                ]
+            },
+            "id": "us7000maxr"
+        }
+    ],
+    "bbox": [
+        82.6416,
+        -5.8184,
+        6.451,
+        151.0968,
+        42.0113,
+        49
+    ]
+}
